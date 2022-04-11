@@ -25,8 +25,8 @@ public class ApiServiceImplTest extends TestCase {
 
     @Test
     public void testGetUsers() throws Exception{
-        List<User> users = apiService.getUsers(4);
+        List<User> users = apiService.getUsers(7);
 
-        assertEquals(4, users.size());
+        assertEquals(7, users.size());
     }
 }
